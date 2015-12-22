@@ -1,0 +1,29 @@
+{
+  "name": "bluerover",
+  "version": "1.0.0",
+  "description": "JavaScript library to connect with the BlueRover web and stream APIs.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluerover/javascript-api.git"
+  },
+  "keywords": [
+    "bluerover",
+    "stream"
+  ],
+  "author": "Andrew Hassan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bluerover/javascript-api/issues"
+  },
+  "homepage": "https://github.com/bluerover/javascript-api#readme",
+  "dependencies": {
+    "crypto": "0.0.3",
+    "lodash": "^3.10.1",
+    "querystring": "^0.2.0",
+    "url": "^0.11.0"
+  }
+}
