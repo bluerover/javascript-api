@@ -48,12 +48,13 @@ BlueRoverApi.prototype.setCredentials = function (credentials) {
     this.baseUrl = baseUrl;
 }
 
-BlueRoverApi.prototype.createStream = function(relativeUrl) {
+BlueRoverApi.prototype.createStream = function(relativeUrl, options) {
     relativeUrl = relativeUrl || '/eventstream';
     var stream = new BlueRoverStream(
         this.key,
         this.token,
-        this.baseUrl + relativeUrl
+        this.baseUrl + relativeUrl,
+        options
     );
     return stream;
 }
